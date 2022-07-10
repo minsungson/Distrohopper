@@ -43,6 +43,7 @@ flatpak install flathub org.videolan.VLC -y
 flatpak install flathub com.calibre_ebook.calibre -y
 flatpak install flathub com.stremio.Stremio -y
 flatpak install flathub net.ankiweb.Anki -y
+flatpak install flathub sh.cider.Cider
 
 # Install Fonts
 cp -r /home/minsungson/Arch-BTW/'Google Sans Text Regular.ttf' /usr/share/fonts

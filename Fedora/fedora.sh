@@ -25,6 +25,7 @@ flatpak install flathub com.calibre_ebook.calibre -y
 flatpak install flathub com.bitwarden.desktop -y
 flatpak install flathub com.stremio.Stremio -y
 flatpak install flathub net.ankiweb.Anki -y
+flatpak install flathub sh.cider.Cider
 
 # Install/remove default Gnome packages
 sudo dnf install gnome-tweaks -y
@@ -59,3 +60,7 @@ gsettings set org.gnome.shell.extensions.ding show-home false
 gsettings set org.gnome.shell.extensions.ding start-corner 'top-right'
 gsettings set org.gnome.desktop.interface font-name 'Google Sans Text 10'
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+
+
+sudo dnf copr enable uriesk/i8kutils -y
+sudo dnf isntall i8ktils -y
